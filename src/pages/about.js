@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
-
+import Navigation from '../components/Navigation';
 const About=()=>{
     return(
         <div>
-        Hola mundo!
+            <Navigation />
+            Hola mundo!
         </div>
     );
 
